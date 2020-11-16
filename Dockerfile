@@ -22,7 +22,7 @@ COPY . /var/www
 
 RUN cp .env.example .env
 
-RUN composer install
+#RUN composer install
 #RUN php artisan key:generate
 #RUN php artisan cache:clear
 RUN chmod -R 777 storage
